@@ -1,0 +1,85 @@
+﻿Mental health services in Australia—Overnight admitted mental health-related care,,,,,,,,,,,,,,,,,
+Table of contents,,,,,,,,,,,,,,,,,
+"Table ON.6: Overnight admitted mental health separations with and without specialised psychiatric care, by principal diagnosis in ICD-10-AM groupings and hospital type, 2018–19",,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,
+Separation type,ICD-10-AM code,Principal diagnosis,Public acute hospital separations,Public psychiatric hospital separations,All public hospital separations,Private hospital separations,Total separations,Column percent of public acute hospital separations,Column percent of public psychiatric hospital separations,Column percent of all public hospital separations,Column percent of private hospital separations,Column percent of total separations,Row percent of public acute hospital separations,Row percent of public psychiatric hospital separations,Row percent of all public hospital separations,Row percent of private hospital separations,Row percent of total separations
+With specialised psychiatric care,F00–F03,Dementia,877,185,"1,062",73,"1,135",0.8,1.8,0.9,0.1,0.7,77.3,16.3,93.6,6.4,100.0
+With specialised psychiatric care,F04–F09,Other organic mental disorders,601,95,696,119,815,0.5,0.9,0.6,0.2,0.5,73.7,11.7,85.4,14.6,100.0
+With specialised psychiatric care,F10,Mental and behavioural disorders due to use of alcohol,"2,323",413,"2,736","5,606","8,342",2.1,4.0,2.2,11.5,4.9,27.8,5.0,32.8,67.2,100.0
+With specialised psychiatric care,F11–19,Mental and behavioural disorders due to other psychoactive substance use,"9,845","1,157","11,002","2,549","13,551",8.8,11.3,9.0,5.2,7.9,72.7,8.5,81.2,18.8,100.0
+With specialised psychiatric care,F20,Schizophrenia,"20,029","2,046","22,075","1,159","23,234",17.8,19.9,18.0,2.4,13.6,86.2,8.8,95.0,5.0,100.0
+With specialised psychiatric care,"F21, F24, F28, F29",Schizotypal and other delusional disorders,"3,235",232,"3,467",164,"3,631",2.9,2.3,2.8,0.3,2.1,89.1,6.4,95.5,4.5,100.0
+With specialised psychiatric care,F22,Persistent delusional disorders,"1,196",87,"1,283",66,"1,349",1.1,0.8,1.0,0.1,0.8,88.7,6.4,95.1,4.9,100.0
+With specialised psychiatric care,F23,Acute and transient psychotic disorders,"1,392",82,"1,474",82,"1,556",1.2,0.8,1.2,0.2,0.9,89.5,5.3,94.7,5.3,100.0
+With specialised psychiatric care,F25,Schizoaffective disorders,"7,825",770,"8,595","1,468","10,063",7.0,7.5,7.0,3.0,5.9,77.8,7.7,85.4,14.6,100.0
+With specialised psychiatric care,F30,Manic episode,895,51,946,65,"1,011",0.8,0.5,0.8,0.1,0.6,88.5,5.0,93.6,6.4,100.0
+With specialised psychiatric care,F31,Bipolar affective disorders,"8,723",767,"9,490","5,360","14,850",7.8,7.5,7.7,11.0,8.7,58.7,5.2,63.9,36.1,100.0
+With specialised psychiatric care,F32,Depressive episode,"13,109",640,"13,749","13,115","26,864",11.7,6.2,11.2,26.9,15.7,48.8,2.4,51.2,48.8,100.0
+With specialised psychiatric care,F33,Recurrent depressive disorders,"1,532",136,"1,668","5,795","7,463",1.4,1.3,1.4,11.9,4.4,20.5,1.8,22.4,77.6,100.0
+With specialised psychiatric care,F34,Persistent mood (affective) disorders,500,30,530,423,953,0.4,0.3,0.4,0.9,0.6,52.5,3.1,55.6,44.4,100.0
+With specialised psychiatric care,"F38, F39",Other and unspecified mood (affective) disorders,186,8,194,75,269,0.2,0.1,0.2,0.2,0.2,69.1,3.0,72.1,27.9,100.0
+With specialised psychiatric care,F40,Phobic anxiety disorders,83,11,94,69,163,0.1,0.1,0.1,0.1,0.1,50.9,6.7,57.7,42.3,100.0
+With specialised psychiatric care,F41,Other anxiety disorders,"3,554",183,"3,737","2,966","6,703",3.2,1.8,3.0,6.1,3.9,53.0,2.7,55.8,44.2,100.0
+With specialised psychiatric care,F42,Obsessive-compulsive disorders,401,25,426,461,887,0.4,0.2,0.3,0.9,0.5,45.2,2.8,48.0,52.0,100.0
+With specialised psychiatric care,F43,Reaction to severe stress and adjustment disorders,"11,074","1,002","12,076","5,613","17,689",9.9,9.8,9.9,11.5,10.3,62.6,5.7,68.3,31.7,100.0
+With specialised psychiatric care,F44,Dissociative (conversion) disorders,165,11,176,235,411,0.1,0.1,0.1,0.5,0.2,40.1,2.7,42.8,57.2,100.0
+With specialised psychiatric care,"F45, F48",Somatoform and other neurotic disorders,118,7,125,53,178,0.1,0.1,0.1,0.1,0.1,66.3,3.9,70.2,29.8,100.0
+With specialised psychiatric care,F50,Eating disorders,"1,182",39,"1,221","1,136","2,357",1.1,0.4,1.0,2.3,1.4,50.1,1.7,51.8,48.2,100.0
+With specialised psychiatric care,F51–F59,Other behavioural syndromes associated with physiological disturbances and physical factors,246,n.p.,250,81,331,0.2,—,0.2,0.2,0.2,74.3,1.2,75.5,24.5,100.0
+With specialised psychiatric care,F60,Specific personality disorders,"9,787",685,"10,472","1,511","11,983",8.7,6.7,8.5,3.1,7.0,81.7,5.7,87.4,12.6,100.0
+With specialised psychiatric care,F61–F69,Disorders of adult personality and behaviour,225,19,244,67,311,0.2,0.2,0.2,0.1,0.2,72.3,6.1,78.5,21.5,100.0
+With specialised psychiatric care,F70–F79,Mental retardation,n.p.,n.p.,n.p.,n.p.,242,n.p.,n.p.,n.p.,n.p.,0.1,n.p.,n.p.,n.p.,n.p.,100.0
+With specialised psychiatric care,F80–F89,Disorders of psychological development,459,40,499,78,577,0.4,0.4,0.4,0.2,0.3,79.5,6.9,86.5,13.5,100.0
+With specialised psychiatric care,F90,Hyperkinetic disorders,145,23,168,97,265,0.1,0.2,0.1,0.2,0.2,54.7,8.7,63.4,36.6,100.0
+With specialised psychiatric care,F91,Conduct disorders,n.p.,n.p.,n.p.,n.p.,298,n.p.,n.p.,n.p.,n.p.,0.2,n.p.,n.p.,n.p.,n.p.,100.0
+With specialised psychiatric care,F92–F98,Other and unspecified disorders with onset in childhood or adolescence,429,32,461,26,487,0.4,0.3,0.4,0.1,0.3,88.1,6.6,94.7,5.3,100.0
+With specialised psychiatric care,F99,Mental disorder not otherwise specified,n.p.,n.p.,n.p.,n.p.,60,n.p.,n.p.,n.p.,n.p.,—,n.p.,n.p.,n.p.,n.p.,100.0
+With specialised psychiatric care,G30,Alzheimer’s disease,212,14,226,16,242,0.2,0.1,0.2,—,0.1,87.6,5.8,93.4,6.6,100.0
+With specialised psychiatric care,,Other factors related to mental and behavioural disorders and substance use,117,294,411,—,411,0.1,2.9,0.3,—,0.2,28.5,71.5,100.0,—,100.0
+With specialised psychiatric care,,Other specified mental health-related principal diagnosis,346,15,361,14,375,0.3,0.1,0.3,—,0.2,92.3,4.0,96.3,3.7,100.0
+With specialised psychiatric care,,Other,"10,987","1,067","12,054",176,"12,230",9.8,10.4,9.8,0.4,7.1,89.8,8.7,98.6,1.4,100.0
+With specialised psychiatric care,,Total,"112,301","10,262","122,563","48,723","171,286",100.0,100.0,100.0,100.0,100.0,65.6,6.0,71.6,28.4,100.0
+,,,,,,,,,,,,,,,,,
+Without specialised psychiatric care,F00–F03,Dementia,n.p.,n.p.,"8,652",836,"9,488",n.p.,n.p.,9.6,8.4,9.5,n.p.,n.p.,91.2,8.8,100.0
+Without specialised psychiatric care,F04–F09,Other organic mental disorders,n.p.,n.p.,"18,054","1,866","19,920",n.p.,n.p.,20.1,18.8,20.0,n.p.,n.p.,90.6,9.4,100.0
+Without specialised psychiatric care,F10,Mental and behavioural disorders due to use of alcohol,n.p.,n.p.,"18,606","2,167","20,773",n.p.,n.p.,20.7,21.8,20.8,n.p.,n.p.,89.6,10.4,100.0
+Without specialised psychiatric care,F11–19,Mental and behavioural disorders due to other psychoactive substance use,n.p.,n.p.,"7,670",550,"8,220",n.p.,n.p.,8.5,5.5,8.2,n.p.,n.p.,93.3,6.7,100.0
+Without specialised psychiatric care,F20,Schizophrenia,n.p.,n.p.,"2,135",43,"2,178",n.p.,n.p.,2.4,0.4,2.2,n.p.,n.p.,98.0,2.0,100.0
+Without specialised psychiatric care,"F21, F24, F28, F29",Schizotypal and other delusional disorders,n.p.,n.p.,"1,010",17,"1,027",n.p.,n.p.,1.1,0.2,1.0,n.p.,n.p.,98.3,1.7,100.0
+Without specialised psychiatric care,F22,Persistent delusional disorders,n.p.,n.p.,571,15,586,n.p.,n.p.,0.6,0.2,0.6,n.p.,n.p.,97.4,2.6,100.0
+Without specialised psychiatric care,F23,Acute and transient psychotic disorders,n.p.,n.p.,516,13,529,n.p.,n.p.,0.6,0.1,0.5,n.p.,n.p.,97.5,2.5,100.0
+Without specialised psychiatric care,F25,Schizoaffective disorders,n.p.,n.p.,613,43,656,n.p.,n.p.,0.7,0.4,0.7,n.p.,n.p.,93.4,6.6,100.0
+Without specialised psychiatric care,F30,Manic episode,n.p.,n.p.,269,13,282,n.p.,n.p.,0.3,0.1,0.3,n.p.,n.p.,95.4,4.6,100.0
+Without specialised psychiatric care,F31,Bipolar affective disorders,n.p.,n.p.,"1,039",211,"1,250",n.p.,n.p.,1.2,2.1,1.3,n.p.,n.p.,83.1,16.9,100.0
+Without specialised psychiatric care,F32,Depressive episode,n.p.,n.p.,"4,762",786,"5,548",n.p.,n.p.,5.3,7.9,5.6,n.p.,n.p.,85.8,14.2,100.0
+Without specialised psychiatric care,F33,Recurrent depressive disorders,n.p.,n.p.,258,59,317,n.p.,n.p.,0.3,0.6,0.3,n.p.,n.p.,81.4,18.6,100.0
+Without specialised psychiatric care,F34,Persistent mood (affective) disorders,n.p.,n.p.,82,11,93,n.p.,n.p.,0.1,0.1,0.1,n.p.,n.p.,88.2,11.8,100.0
+Without specialised psychiatric care,"F38, F39",Other and unspecified mood (affective) disorders,n.p.,n.p.,77,17,94,n.p.,n.p.,0.1,0.2,0.1,n.p.,n.p.,81.9,18.1,100.0
+Without specialised psychiatric care,F40,Phobic anxiety disorders,n.p.,n.p.,22,9,31,n.p.,n.p.,—,0.1,—,n.p.,n.p.,71.0,29.0,100.0
+Without specialised psychiatric care,F41,Other anxiety disorders,n.p.,n.p.,"4,336",570,"4,906",n.p.,n.p.,4.8,5.7,4.9,n.p.,n.p.,88.4,11.6,100.0
+Without specialised psychiatric care,F42,Obsessive-compulsive disorders,n.p.,n.p.,54,34,88,n.p.,n.p.,0.1,0.3,0.1,n.p.,n.p.,61.4,38.6,100.0
+Without specialised psychiatric care,F43,Reaction to severe stress and adjustment disorders,n.p.,n.p.,"3,343",207,"3,550",n.p.,n.p.,3.7,2.1,3.6,n.p.,n.p.,94.2,5.8,100.0
+Without specialised psychiatric care,F44,Dissociative (conversion) disorders,n.p.,n.p.,"2,060",68,"2,128",n.p.,n.p.,2.3,0.7,2.1,n.p.,n.p.,96.8,3.2,100.0
+Without specialised psychiatric care,"F45, F48",Somatoform and other neurotic disorders,n.p.,n.p.,400,75,475,n.p.,n.p.,0.4,0.8,0.5,n.p.,n.p.,84.2,15.8,100.0
+Without specialised psychiatric care,F50,Eating disorders,n.p.,n.p.,"2,622",103,"2,725",n.p.,n.p.,2.9,1.0,2.7,n.p.,n.p.,96.2,3.8,100.0
+Without specialised psychiatric care,F51–F59,Other behavioural syndromes associated with physiological disturbances and physical factors,n.p.,n.p.,232,118,350,n.p.,n.p.,0.3,1.2,0.4,n.p.,n.p.,66.3,33.7,100.0
+Without specialised psychiatric care,F60,Specific personality disorders,n.p.,n.p.,963,65,"1,028",n.p.,n.p.,1.1,0.7,1.0,n.p.,n.p.,93.7,6.3,100.0
+Without specialised psychiatric care,F61–F69,Disorders of adult personality and behaviour,n.p.,n.p.,120,440,560,n.p.,n.p.,0.1,4.4,0.6,n.p.,n.p.,21.4,78.6,100.0
+Without specialised psychiatric care,F70–F79,Mental retardation,n.p.,n.p.,151,11,162,n.p.,n.p.,0.2,0.1,0.2,n.p.,n.p.,93.2,6.8,100.0
+Without specialised psychiatric care,F80–F89,Disorders of psychological development,n.p.,n.p.,282,11,293,n.p.,n.p.,0.3,0.1,0.3,n.p.,n.p.,96.2,3.8,100.0
+Without specialised psychiatric care,F90,Hyperkinetic disorders,n.p.,n.p.,51,5,56,n.p.,n.p.,0.1,0.1,0.1,n.p.,n.p.,91.1,8.9,100.0
+Without specialised psychiatric care,F91,Conduct disorders,n.p.,n.p.,676,5,681,n.p.,n.p.,0.8,0.1,0.7,n.p.,n.p.,99.3,0.7,100.0
+Without specialised psychiatric care,F92–F98,Other and unspecified disorders with onset in childhood or adolescence,n.p.,n.p.,293,14,307,n.p.,n.p.,0.3,0.1,0.3,n.p.,n.p.,95.4,4.6,100.0
+Without specialised psychiatric care,F99,Mental disorder not otherwise specified,n.p.,n.p.,n.p.,n.p.,87,n.p.,n.p.,n.p.,n.p.,0.1,n.p.,n.p.,n.p.,n.p.,100.0
+Without specialised psychiatric care,G30,Alzheimer’s disease,n.p.,n.p.,"1,522",297,"1,819",n.p.,n.p.,1.7,3.0,1.8,n.p.,n.p.,83.7,16.3,100.0
+Without specialised psychiatric care,,Other factors related to mental and behavioural disorders and substance use,n.p.,n.p.,n.p.,n.p.,312,n.p.,n.p.,n.p.,n.p.,0.3,n.p.,n.p.,n.p.,n.p.,100.0
+Without specialised psychiatric care,,Other specified mental health-related principal diagnosis,n.p.,n.p.,"7,972","1,263","9,235",n.p.,n.p.,8.9,12.7,9.3,n.p.,n.p.,86.3,13.7,100.0
+Without specialised psychiatric care,,Other,n.p.,n.p.,—,—,—,n.p.,n.p.,—,—,—,n.p.,n.p.,n.p.,n.p.,n.p.
+Without specialised psychiatric care,,Total,n.p.,n.p.,"89,807","9,947","99,754",n.p.,n.p.,100.0,100.0,100.0,n.p.,n.p.,90.0,10.0,100.0
+,,,,,,,,,,,,,,,,,
+Refer to general caveats a and b for general data information and data quality statements on the general information tab.,,,,,,,,,,,,,,,,,
+Notes:,,,,,,,,,,,,,,,,,
+"            1. Other factors related to mental and behavioural disorders and substance use includes ICD-10-AM codes Z00.4, Z03.2, Z04.6, Z09.3, Z13.3, Z54.3, Z61.9, Z63.1, Z63.8, Z63.9, Z65.8, Z65.9, Z71.4, Z71.5 and Z76.0.",,,,,,,,,,,,,,,,,
+            2. Other specified mental health-related principal diagnosis includes separations for which the principal diagnosis was any other mental health-related principal diagnosis as listed in the online technical information.,,,,,,,,,,,,,,,,,
+            3. Other includes all other codes not included as a mental health principal diagnosis as listed in the online technical information.,,,,,,,,,,,,,,,,,
+Source:  National Hospital Morbidity Database.,,,,,,,,,,,,,,,,,
