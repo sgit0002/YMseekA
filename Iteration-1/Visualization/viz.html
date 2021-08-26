@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script type="application/shiny-singletons">3891ac171834ed25f436995ba40a47edd74e5169,45534f2c59c7069db5da7f5118dc12c792e86de5</script>
+  <script type="application/html-dependencies">json2[2014.02.04];jquery[3.5.1];shiny[1.5.0];font-awesome[5.13.0];selectize[0.11.2];htmlwidgets[1.5.3];plotly-binding[4.9.3];bootstrap[3.4.1];AdminLTE[2.0.6];shinydashboard[0.7.1]</script>
+<script src="shared/json2-min.js"></script>
+<script src="shared/jquery.min.js"></script>
+<link href="shared/shiny.css" rel="stylesheet" />
+<script src="shared/shiny.min.js"></script>
+<link href="font-awesome-5.13.0/css/all.min.css" rel="stylesheet" />
+<link href="font-awesome-5.13.0/css/v4-shims.min.css" rel="stylesheet" />
+<link href="shared/selectize/css/selectize.bootstrap3.css" rel="stylesheet" />
+<!--[if lt IE 9]>
+<script src="shared/selectize/js/es5-shim.min.js"></script>
+<![endif]-->
+<script src="shared/selectize/js/selectize.min.js"></script>
+<script src="htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="plotly-binding-4.9.3/plotly.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="shared/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<script src="shared/bootstrap/js/bootstrap.min.js"></script>
+<script src="shared/bootstrap/shim/html5shiv.min.js"></script>
+<script src="shared/bootstrap/shim/respond.min.js"></script>
+<link href="AdminLTE-2.0.6/AdminLTE.min.css" rel="stylesheet" />
+<link href="AdminLTE-2.0.6/_all-skins.min.css" rel="stylesheet" />
+<script src="AdminLTE-2.0.6/app.min.js"></script>
+<link href="shinydashboard-0.7.1/shinydashboard.css" rel="stylesheet" />
+<script src="shinydashboard-0.7.1/shinydashboard.min.js"></script>  <title>Infograpics</title>
+  <link rel="stylesheet" href="shinycssloaders-assets/spinner.css"/>
+  <script src="shinycssloaders-assets/spinner.js"></script>
+  <link rel="stylesheet" href="shinycssloaders-assets/css-loaders.css"/>
+  <style>#spinner-459a0d1a143c1eecb830e8a656e0be30, #spinner-459a0d1a143c1eecb830e8a656e0be30:before, #spinner-459a0d1a143c1eecb830e8a656e0be30:after {   background: #0275D8; } #spinner-459a0d1a143c1eecb830e8a656e0be30 {   color: #0275D8; } #spinner-459a0d1a143c1eecb830e8a656e0be30 { font-size: 8px; }</style>
+  <style>#spinner-baccfd5d24e07646f5957994499f9c56, #spinner-baccfd5d24e07646f5957994499f9c56:before, #spinner-baccfd5d24e07646f5957994499f9c56:after {   background: #0275D8; } #spinner-baccfd5d24e07646f5957994499f9c56 {   color: #0275D8; } #spinner-baccfd5d24e07646f5957994499f9c56 { font-size: 8px; }</style>
+</head>
+<body class="skin-blue" style="min-height: 611px;">
+  <div class="wrapper">
+    <header class="main-header">
+      <span class="logo">Infograpics</span>
+      <nav class="navbar navbar-static-top" role="navigation">
+        <span style="display:none;">
+          <i class="fa fa-bars"></i>
+        </span>
+        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav"></ul>
+        </div>
+      </nav>
+    </header>
+    <aside id="sidebarCollapsed" class="main-sidebar" data-collapsed="false">
+      <section id="sidebarItemExpanded" class="sidebar">
+        <ul class="sidebar-menu">
+          <li>
+            <a href="#shiny-tab-hospital" data-toggle="tab" data-value="hospital">
+              <i class="fa fa-dashboard"></i>
+              <span>Hospitals</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </aside>
+    <div class="content-wrapper">
+      <section class="content">
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane" id="shiny-tab-hospital">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="box box-solid box-warning">
+                  <div class="box-header">
+                    <h3 class="box-title">Wordcloud</h3>
+                    <div class="box-tools pull-right">
+                      <button class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fa fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="box-body">
+                    <div class="shiny-spinner-output-container shiny-spinner-hideui ">
+                      <div class="load-container shiny-spinner-hidden load1">
+                        <div id="spinner-459a0d1a143c1eecb830e8a656e0be30" class="loader">Loading...</div>
+                      </div>
+                      <div id="plot" class="shiny-plot-output" style="width: 100% ; height: 400px"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="box box-solid bg-black">
+                  <div class="box-header">
+                    <h3 class="box-title">Inputs</h3>
+                    <div class="box-tools pull-right">
+                      <button class="btn btn-box-tool" data-widget="collapse">
+                        <i class="fa fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="box-body">
+                    <div class="form-group shiny-input-container">
+                      <label class="control-label" for="selection">Select separations</label>
+                      <div>
+                        <select id="selection"><option value="Public Hospitals" selected>Public Hospitals</option>
+<option value="Public Psychiatric Hospitals">Public Psychiatric Hospitals</option>
+<option value="All Public Hospitals (Australia)">All Public Hospitals (Australia)</option>
+<option value="Private Hospitals">Private Hospitals</option>
+<option value="All Hospitals (Public + Private)">All Hospitals (Public + Private)</option></select>
+                        <script type="application/json" data-for="selection" data-nonempty="">{}</script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="box box-solid box-warning">
+                <div class="box-header">
+                  <h3 class="box-title">Bar plot</h3>
+                  <div class="box-tools pull-right">
+                    <button class="btn btn-box-tool" data-widget="collapse">
+                      <i class="fa fa-minus"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="box-body">
+                  <div class="shiny-spinner-output-container shiny-spinner-hideui ">
+                    <div class="load-container shiny-spinner-hidden load1">
+                      <div id="spinner-baccfd5d24e07646f5957994499f9c56" class="loader">Loading...</div>
+                    </div>
+                    <div id="bar_plot" style="width:100%; height:400px; " class="plotly html-widget html-widget-output shiny-report-size shiny-report-theme"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
