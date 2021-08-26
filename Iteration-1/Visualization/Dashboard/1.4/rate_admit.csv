@@ -1,0 +1,133 @@
+"","Measure","Sex","Separation.type","Age.group","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","Change..per.cent..2017.18.to.2018.19","Average.annual.change..per.cent..2014.15.to.2018.19","Average.annual.change..per.cent..2008.09.to.2018.19"
+"1","Separations","Male","With specialised psychiatric care","0-4 years",116,72,72,63,71,123,78,148,148,125,140,68,61,-10.3,-19.9,-1.6
+"2","Separations","Male","With specialised psychiatric care","5-11 years",354,346,246,291,223,294,291,213,223,213,246,228,297,30.3,7.4,1.9
+"3","Separations","Male","With specialised psychiatric care","12-17 years",1582,1574,1814,1890,2085,2151,2299,2352,2361,2468,2576,2850,2915,2.3,5.4,4.9
+"4","Separations","Male","With specialised psychiatric care","18-24 years",7555,7374,7106,6840,7538,7952,8220,8222,9208,10312,10623,11023,11028,NA,4.6,4.5
+"5","Separations","Male","With specialised psychiatric care","25-34 years",14951,14386,13693,13620,14101,14564,14819,15334,16070,18008,18328,17813,18371,3.1,3.4,3
+"6","Separations","Male","With specialised psychiatric care","35-44 years",12478,12510,12649,12420,13662,14096,14327,15049,16386,18165,18686,18287,18834,3,3.5,4.1
+"7","Separations","Male","With specialised psychiatric care","45-54 years",8088,8165,8388,8887,9368,9633,10371,10580,11278,12359,13337,13836,14437,4.3,6.4,5.6
+"8","Separations","Male","With specialised psychiatric care","55-64 years",5257,5503,5679,5796,6013,6105,6106,6299,6590,7288,7868,8246,8592,4.2,6.9,4.2
+"9","Separations","Male","With specialised psychiatric care","65-74 years",2396,2377,2522,2599,3066,3122,3563,3860,4134,4272,4500,4491,4725,5.2,3.4,6.5
+"10","Separations","Male","With specialised psychiatric care","75-84 years",1775,1751,1710,1825,1611,1598,1593,1674,1548,1572,1744,1686,1652,-2,1.6,-0.3
+"11","Separations","Male","With specialised psychiatric care","85 years and over",490,498,504,486,485,498,491,485,534,547,496,506,467,-7.7,-3.3,-0.8
+"14","Separations","Male","Without specialised psychiatric care","0-4 years",2060,2072,1996,1962,1973,2051,2005,2085,2155,2045,2052,1889,2292,21.3,1.6,1.4
+"15","Separations","Male","Without specialised psychiatric care","5-11 years",275,295,365,285,360,303,249,297,340,399,420,403,414,2.7,5,1.3
+"16","Separations","Male","Without specialised psychiatric care","12-17 years",982,1003,1021,1077,1126,1085,1041,1049,947,1091,1226,1053,1047,-0.6,2.5,0.3
+"17","Separations","Male","Without specialised psychiatric care","18-24 years",2549,2727,2565,2542,2452,2608,2508,2405,2393,2639,2794,2621,2752,5,3.6,0.7
+"18","Separations","Male","Without specialised psychiatric care","25-34 years",5753,5815,5469,5460,5208,5397,5029,4811,4900,5511,5666,5157,5339,3.5,2.2,-0.2
+"19","Separations","Male","Without specialised psychiatric care","35-44 years",6264,6615,6484,6552,6349,6330,6164,5996,6083,6631,6901,6508,6764,3.9,2.7,0.4
+"20","Separations","Male","Without specialised psychiatric care","45-54 years",4925,5263,5149,5273,5093,4973,5323,5208,5171,5912,6274,6273,6301,0.4,5.1,2
+"21","Separations","Male","Without specialised psychiatric care","55-64 years",3319,3413,3256,3518,3520,3541,3693,3644,3950,4180,4540,4592,4954,7.9,5.8,4.3
+"22","Separations","Male","Without specialised psychiatric care","65-74 years",2296,2330,2495,2701,2709,2848,3076,3240,3568,4042,4540,4639,4690,1.1,7.1,6.5
+"23","Separations","Male","Without specialised psychiatric care","75-84 years",3586,3477,3625,3640,3967,4148,4472,4783,4973,5682,6354,6996,7361,5.2,10.3,7.3
+"24","Separations","Male","Without specialised psychiatric care","85 years and over",1893,2089,2281,2469,2805,2988,3325,3683,4132,4940,5471,5775,6176,6.9,10.6,10.5
+"27","Separations","Female","With specialised psychiatric care","0-4 years",84,72,63,65,64,84,87,119,121,124,140,46,41,-10.9,-23.7,-4.2
+"28","Separations","Female","With specialised psychiatric care","5-11 years",166,142,106,154,109,134,137,135,125,122,153,144,203,41,12.9,6.7
+"29","Separations","Female","With specialised psychiatric care","12-17 years",3052,3011,3133,3574,3779,4503,5775,5335,5495,5595,6069,6330,6730,6.3,5.2,7.9
+"30","Separations","Female","With specialised psychiatric care","18-24 years",7003,6943,7404,7288,7647,8340,8631,9307,10304,11594,12499,12985,13554,4.4,7.1,6.2
+"31","Separations","Female","With specialised psychiatric care","25-34 years",11581,11494,11803,11699,12000,12737,13076,13353,14545,15976,17207,17001,17993,5.8,5.5,4.3
+"32","Separations","Female","With specialised psychiatric care","35-44 years",12402,12947,13341,13621,13751,13709,14113,14355,15201,16124,16454,16386,16845,2.8,2.6,2.4
+"33","Separations","Female","With specialised psychiatric care","45-54 years",9881,10430,10567,11026,11151,11501,12006,12573,13067,13711,14366,14702,15265,3.8,4,3.7
+"34","Separations","Female","With specialised psychiatric care","55-64 years",5548,6002,6308,6849,6879,7236,7536,7707,8084,8799,9619,9531,9960,4.5,5.4,4.7
+"35","Separations","Female","With specialised psychiatric care","65-74 years",3419,3576,3614,3794,3863,4033,4504,4564,4680,5048,5446,5651,5739,1.6,5.2,4.7
+"36","Separations","Female","With specialised psychiatric care","75-84 years",2884,2965,2839,2732,2617,2628,2620,2655,2666,2807,2686,2818,2737,-2.9,0.7,-0.4
+"37","Separations","Female","With specialised psychiatric care","85 years and over",811,906,867,958,831,908,941,934,930,878,848,800,794,-0.8,-3.9,-0.9
+"40","Separations","Female","Without specialised psychiatric care","0-4 years",1697,1612,1595,1613,1570,1707,1639,1639,1611,1555,1570,1484,1738,17.1,1.9,0.9
+"41","Separations","Female","Without specialised psychiatric care","5-11 years",201,201,235,251,282,277,238,242,347,350,317,316,356,12.7,0.6,4.2
+"42","Separations","Female","Without specialised psychiatric care","12-17 years",2149,2027,2069,2204,2278,2504,2738,2648,2640,2747,2849,2754,2761,0.3,1.1,2.9
+"43","Separations","Female","Without specialised psychiatric care","18-24 years",3284,3224,3136,3156,2860,2902,3122,3076,3182,3538,3736,3860,3951,2.4,5.6,2.3
+"44","Separations","Female","Without specialised psychiatric care","25-34 years",6997,6984,6994,6718,6003,6131,6270,6202,6166,6609,6730,6592,7421,12.6,4.7,0.6
+"45","Separations","Female","Without specialised psychiatric care","35-44 years",6244,6405,6491,6819,6194,6006,6083,5999,5790,6286,6269,6013,6374,6,2.4,-0.2
+"46","Separations","Female","Without specialised psychiatric care","45-54 years",4210,4448,4358,4414,4174,4351,4355,4355,4457,4616,5058,5244,5214,-0.6,4,1.8
+"47","Separations","Female","Without specialised psychiatric care","55-64 years",2707,2768,2676,3019,2690,2678,2766,2866,2910,3299,3436,3635,3722,2.4,6.3,3.4
+"48","Separations","Female","Without specialised psychiatric care","65-74 years",2119,2226,2210,2468,2379,2540,2749,2889,3061,3435,3760,3784,4124,9,7.7,6.4
+"49","Separations","Female","Without specialised psychiatric care","75-84 years",4272,4303,4289,4362,4503,4634,4844,5019,5271,6100,6631,6829,7063,3.4,7.6,5.1
+"50","Separations","Female","Without specialised psychiatric care","85 years and over",3369,3574,3868,4182,4358,4745,5264,5681,6189,7196,7624,8264,8757,6,9.1,8.5
+"53","Separations","Persons","With specialised psychiatric care","0-4 years",200,144,135,128,135,207,165,267,269,249,280,114,102,-10.5,-21.5,-2.8
+"54","Separations","Persons","With specialised psychiatric care","5-11 years",520,488,352,445,332,428,428,348,348,335,399,372,500,34.4,9.5,3.6
+"55","Separations","Persons","With specialised psychiatric care","12-17 years",4634,4585,4947,5465,5864,6654,8074,7687,7856,8063,8646,9182,9654,5.1,5.3,6.9
+"56","Separations","Persons","With specialised psychiatric care","18-24 years",14558,14317,14510,14128,15185,16298,16852,17529,19517,21906,23144,24015,24590,2.4,5.9,5.4
+"57","Separations","Persons","With specialised psychiatric care","25-34 years",26532,25882,25498,25321,26101,27304,27897,28687,30615,33988,35537,34823,36381,4.5,4.4,3.6
+"58","Separations","Persons","With specialised psychiatric care","35-44 years",24881,25457,25991,26041,27413,27805,28441,29405,31587,34294,35140,34673,35686,2.9,3.1,3.2
+"59","Separations","Persons","With specialised psychiatric care","45-54 years",17969,18595,18955,19913,20519,21134,22377,23153,24346,26070,27705,28539,29706,4.1,5.1,4.6
+"60","Separations","Persons","With specialised psychiatric care","55-64 years",10805,11505,11987,12645,12892,13341,13642,14006,14674,16087,17488,17780,18552,4.3,6,4.5
+"61","Separations","Persons","With specialised psychiatric care","65-74 years",5815,5953,6136,6393,6929,7155,8067,8424,8814,9320,9947,10143,10464,3.2,4.4,5.5
+"62","Separations","Persons","With specialised psychiatric care","75-84 years",4659,4716,4549,4557,4228,4226,4213,4329,4214,4379,4430,4504,4389,-2.6,1,-0.4
+"63","Separations","Persons","With specialised psychiatric care","85 years and over",1301,1404,1371,1444,1316,1406,1432,1419,1464,1425,1344,1306,1261,-3.4,-3.7,-0.8
+"66","Separations","Persons","Without specialised psychiatric care","0-4 years",3757,3684,3591,3575,3543,3758,3644,3724,3766,3602,3623,3373,4030,19.5,1.7,1.2
+"67","Separations","Persons","Without specialised psychiatric care","5-11 years",476,496,600,536,642,580,487,539,687,749,737,719,770,7.1,2.9,2.5
+"68","Separations","Persons","Without specialised psychiatric care","12-17 years",3131,3030,3090,3281,3404,3589,3779,3697,3587,3838,4078,3808,3812,0.1,1.5,2.1
+"69","Separations","Persons","Without specialised psychiatric care","18-24 years",5833,5952,5702,5701,5312,5510,5630,5481,5575,6178,6534,6537,6782,3.7,5,1.7
+"70","Separations","Persons","Without specialised psychiatric care","25-34 years",12751,12802,12464,12178,11211,11529,11299,11013,11067,12120,12401,11783,12809,8.7,3.7,0.3
+"71","Separations","Persons","Without specialised psychiatric care","35-44 years",12841,13021,12975,13373,12543,12336,12247,11995,11873,12918,13171,12531,13158,5,2.6,0.1
+"72","Separations","Persons","Without specialised psychiatric care","45-54 years",9135,9711,9507,9687,9267,9325,9678,9563,9628,10528,11333,11519,11530,0.1,4.6,1.9
+"73","Separations","Persons","Without specialised psychiatric care","55-64 years",6026,6181,5932,6537,6210,6219,6459,6510,6860,7479,7978,8233,8682,5.5,6.1,3.9
+"74","Separations","Persons","Without specialised psychiatric care","65-74 years",4415,4556,4705,5169,5088,5388,5825,6129,6629,7477,8301,8424,8820,4.7,7.4,6.5
+"75","Separations","Persons","Without specialised psychiatric care","75-84 years",7859,7780,7914,8002,8470,8782,9316,9802,10244,11782,12985,13825,14424,4.3,8.9,6.2
+"76","Separations","Persons","Without specialised psychiatric care","85 years and over",5262,5663,6149,6651,7163,7733,8589,9364,10321,12136,13095,14039,14933,6.4,9.7,9.3
+"79","Separations per 10,000 population","Male","With specialised psychiatric care","0-4 years",1.7,1,1,0.9,1,1.6,1,1.9,1.9,1.6,1.7,0.8,0.8,-10.6,-20.3,-2.8
+"80","Separations per 10,000 population","Male","With specialised psychiatric care","5-11 years",3.7,3.6,2.5,3,2.3,2.9,2.8,2,2.1,1.9,2.2,2,2.6,28.6,5.4,0.1
+"81","Separations per 10,000 population","Male","With specialised psychiatric care","12-17 years",18.3,18.1,20.8,21.7,23.9,24.7,26.3,27,27.1,28.2,29.2,31.9,32.1,0.6,4.3,4.4
+"82","Separations per 10,000 population","Male","With specialised psychiatric care","18-24 years",73.4,69.3,64.3,60.6,67,70.4,72,71.3,79.1,88.2,89.9,92.2,90.7,-1.6,3.5,3.5
+"83","Separations per 10,000 population","Male","With specialised psychiatric care","25-34 years",103.9,98.3,90.4,87.4,88.6,89.3,88.2,89.2,91.8,101.1,101,96.6,98,1.4,1.6,0.8
+"84","Separations per 10,000 population","Male","With specialised psychiatric care","35-44 years",82.6,82,82.1,80,87.4,89.4,90,94.2,102.3,113.1,115.5,111.6,113.1,1.3,2.5,3.3
+"85","Separations per 10,000 population","Male","With specialised psychiatric care","45-54 years",57.1,56.6,57.1,59.8,62.5,63.9,68.3,69.3,73.5,80.1,85.8,88.4,91.8,3.9,5.7,4.9
+"86","Separations per 10,000 population","Male","With specialised psychiatric care","55-64 years",46.2,46.9,47.1,47,47.7,47.8,47.3,48.1,49.6,54,57.2,58.9,60.4,2.5,5.1,2.5
+"87","Separations per 10,000 population","Male","With specialised psychiatric care","65-74 years",34.5,33.2,33.9,33.4,37.7,36.5,39.7,41.2,42.5,42.4,43.2,41.8,42.8,2.4,0.2,2.4
+"88","Separations per 10,000 population","Male","With specialised psychiatric care","75-84 years",42.5,41.3,39.8,41.8,36.3,35.2,34.3,35.1,31.6,31.3,33.5,31.1,29.2,-6.2,-2,-3
+"89","Separations per 10,000 population","Male","With specialised psychiatric care","85 years and over",45.7,43.6,41.8,38,35.8,34.8,32.5,30.4,31.8,31.2,27.3,26.9,23.9,-11.1,-6.9,-5.4
+"92","Separations per 10,000 population","Male","Without specialised psychiatric care","0-4 years",30.5,29.7,27.6,26.5,26.4,27.1,25.8,26.5,27.1,25.5,25.3,23.3,28.2,20.9,1,0.2
+"93","Separations per 10,000 population","Male","Without specialised psychiatric care","5-11 years",2.9,3.1,3.8,2.9,3.6,3,2.4,2.8,3.2,3.7,3.8,3.5,3.6,1.4,3.1,-0.5
+"94","Separations per 10,000 population","Male","Without specialised psychiatric care","12-17 years",11.4,11.5,11.7,12.4,12.9,12.4,11.9,12,10.9,12.5,13.9,11.8,11.5,-2.2,1.5,-0.2
+"95","Separations per 10,000 population","Male","Without specialised psychiatric care","18-24 years",24.7,25.6,23.2,22.5,21.8,23.1,22,20.8,20.6,22.6,23.6,21.9,22.6,3.2,2.4,-0.3
+"96","Separations per 10,000 population","Male","Without specialised psychiatric care","25-34 years",40,39.7,36.1,35,32.7,33.1,29.9,28,28,30.9,31.2,28,28.5,1.8,0.4,-2.3
+"97","Separations per 10,000 population","Male","Without specialised psychiatric care","35-44 years",41.5,43.4,42.1,42.2,40.6,40.2,38.7,37.5,38,41.3,42.7,39.7,40.6,2.3,1.7,-0.3
+"98","Separations per 10,000 population","Male","Without specialised psychiatric care","45-54 years",34.8,36.5,35.1,35.5,34,33,35.1,34.1,33.7,38.3,40.3,40.1,40.1,NA,4.4,1.3
+"99","Separations per 10,000 population","Male","Without specialised psychiatric care","55-64 years",29.2,29.1,27,28.6,27.9,27.7,28.6,27.8,29.7,31,33,32.8,34.8,6.1,4,2.6
+"100","Separations per 10,000 population","Male","Without specialised psychiatric care","65-74 years",33.1,32.5,33.5,34.7,33.3,33.3,34.3,34.6,36.7,40.1,43.6,43.2,42.5,-1.6,3.7,2.4
+"101","Separations per 10,000 population","Male","Without specialised psychiatric care","75-84 years",85.8,82,84.3,83.4,89.3,91.4,96.3,100.4,101.7,113,122,129.2,130.1,0.7,6.4,4.4
+"102","Separations per 10,000 population","Male","Without specialised psychiatric care","85 years and over",176.7,183.1,189.3,193.3,207.1,208.8,220.2,230.7,246.2,281.8,300.9,307.2,316.4,3,6.5,5.3
+"105","Separations per 10,000 population","Female","With specialised psychiatric care","0-4 years",1.3,1.1,0.9,0.9,0.9,1.2,1.2,1.6,1.6,1.6,1.8,0.6,0.5,-11.1,-24.1,-5.3
+"106","Separations per 10,000 population","Female","With specialised psychiatric care","5-11 years",1.8,1.6,1.2,1.7,1.2,1.4,1.4,1.4,1.2,1.2,1.4,1.3,1.9,39.1,10.7,4.9
+"107","Separations per 10,000 population","Female","With specialised psychiatric care","12-17 years",37.3,36.6,38,43.3,45.8,54.4,69.6,64.3,66.2,67.2,72.5,74.8,78.2,4.6,4.3,7.5
+"108","Separations per 10,000 population","Female","With specialised psychiatric care","18-24 years",70.7,68.5,70.8,68.2,71.3,77.2,78.9,84.2,92.6,103.5,110.5,113.5,117.3,3.3,6.1,5.2
+"109","Separations per 10,000 population","Female","With specialised psychiatric care","25-34 years",80.9,79.1,79,76.3,76.7,79.3,79,78.5,83.4,89.5,94.1,91.3,95.1,4.2,3.3,1.9
+"110","Separations per 10,000 population","Female","With specialised psychiatric care","35-44 years",81,83.7,85.3,86.5,86.7,85.7,87.5,88.7,93.8,99.3,100.8,99.2,100.1,1,1.7,1.6
+"111","Separations per 10,000 population","Female","With specialised psychiatric care","45-54 years",68.7,71.1,70.8,72.9,73.1,74.8,77.5,80.4,82.8,86,89,90.4,93.4,3.3,3,2.8
+"112","Separations per 10,000 population","Female","With specialised psychiatric care","55-64 years",48.8,51.1,52.1,55.2,54,55.8,57.1,57.2,58.8,62.7,67,65.1,66.9,2.7,3.3,2.5
+"113","Separations per 10,000 population","Female","With specialised psychiatric care","65-74 years",47.2,48,46.8,47.3,46.3,46.1,49,47.5,46.9,48.7,50.6,50.7,49.8,-1.8,1.5,0.6
+"114","Separations per 10,000 population","Female","With specialised psychiatric care","75-84 years",53.9,55.1,52.5,50.2,47.6,47.3,46.8,46.8,46.2,47.7,44.4,45.2,42.3,-6.4,-2.2,-2.1
+"115","Separations per 10,000 population","Female","With specialised psychiatric care","85 years and over",36.8,39.4,36.3,38.4,32,33.8,34,32.6,31.7,29.3,27.8,25.9,25.2,-2.4,-5.6,-3.6
+"118","Separations per 10,000 population","Female","Without specialised psychiatric care","0-4 years",26.5,24.4,23.3,23,22.2,23.8,22.3,22,21.4,20.5,20.5,19.4,22.6,16.8,1.4,-0.3
+"119","Separations per 10,000 population","Female","Without specialised psychiatric care","5-11 years",2.2,2.2,2.6,2.7,3,2.9,2.5,2.4,3.4,3.4,3,2.9,3.3,11.2,-1.3,2.4
+"120","Separations per 10,000 population","Female","Without specialised psychiatric care","12-17 years",26.3,24.6,25.1,26.7,27.6,30.3,33,31.9,31.8,33,34,32.5,32.1,-1.4,0.2,2.5
+"121","Separations per 10,000 population","Female","Without specialised psychiatric care","18-24 years",33.2,31.8,30,29.5,26.7,26.8,28.6,27.8,28.6,31.6,33,33.8,34.2,1.3,4.6,1.3
+"122","Separations per 10,000 population","Female","Without specialised psychiatric care","25-34 years",48.9,48.1,46.8,43.8,38.3,38.2,37.9,36.4,35.3,37,36.8,35.4,39.2,10.9,2.6,-1.8
+"123","Separations per 10,000 population","Female","Without specialised psychiatric care","35-44 years",40.8,41.4,41.5,43.3,39.1,37.6,37.7,37.1,35.7,38.7,38.4,36.4,37.9,4.1,1.5,-0.9
+"124","Separations per 10,000 population","Female","Without specialised psychiatric care","45-54 years",29.3,30.3,29.2,29.2,27.3,28.3,28.1,27.8,28.2,29,31.3,32.2,31.9,-1.1,3.1,0.9
+"125","Separations per 10,000 population","Female","Without specialised psychiatric care","55-64 years",23.8,23.6,22.1,24.3,21.1,20.6,21,21.3,21.2,23.5,23.9,24.8,25,0.6,4.2,1.2
+"126","Separations per 10,000 population","Female","Without specialised psychiatric care","65-74 years",29.2,29.9,28.6,30.8,28.5,29,29.9,30.1,30.7,33.1,34.9,33.9,35.8,5.4,3.9,2.2
+"127","Separations per 10,000 population","Female","Without specialised psychiatric care","75-84 years",79.9,80,79.3,80.2,81.9,83.5,86.5,88.4,91.3,103.6,109.6,109.5,109.1,-0.3,4.6,3.2
+"128","Separations per 10,000 population","Female","Without specialised psychiatric care","85 years and over",152.7,155.3,161.9,167.7,167.7,176.5,190,198.5,211.1,240.3,250,267.1,278.2,4.2,7.1,5.6
+"131","Separations per 10,000 population","Persons","With specialised psychiatric care","0-4 years",1.5,1.1,1,0.9,0.9,1.4,1.1,1.7,1.7,1.6,1.8,0.7,0.6,-10.8,-21.9,-3.9
+"132","Separations per 10,000 population","Persons","With specialised psychiatric care","5-11 years",2.8,2.6,1.9,2.3,1.7,2.2,2.2,1.7,1.7,1.6,1.8,1.7,2.2,32.6,7.4,1.8
+"133","Separations per 10,000 population","Persons","With specialised psychiatric care","12-17 years",27.5,27.1,29.2,32.2,34.6,39.2,47.4,45.2,46.1,47.2,50.3,52.8,54.6,3.4,4.3,6.5
+"134","Separations per 10,000 population","Persons","With specialised psychiatric care","18-24 years",72.1,69,67.5,64.3,69.1,73.7,75.4,77.6,85.7,95.7,100,102.7,103.7,1,4.9,4.4
+"135","Separations per 10,000 population","Persons","With specialised psychiatric care","25-34 years",92.4,88.7,84.8,81.9,82.7,84.3,83.6,83.9,87.6,95.3,97.6,93.9,96.6,2.8,2.5,1.3
+"136","Separations per 10,000 population","Persons","With specialised psychiatric care","35-44 years",81.8,82.9,83.7,83.3,87.1,87.6,88.8,91.4,98,106.2,108.2,105.4,106.6,1.2,2.1,2.4
+"137","Separations per 10,000 population","Persons","With specialised psychiatric care","45-54 years",63,63.9,64,66.4,67.8,69.4,72.9,74.9,78.2,83.1,87.4,89.4,92.6,3.6,4.3,3.8
+"138","Separations per 10,000 population","Persons","With specialised psychiatric care","55-64 years",47.5,49,49.6,51.1,50.9,51.8,52.2,52.7,54.3,58.4,62.2,62.1,63.7,2.6,4.1,2.5
+"139","Separations per 10,000 population","Persons","With specialised psychiatric care","65-74 years",41,40.7,40.5,40.5,42.1,41.4,44.4,44.4,44.7,45.6,47,46.4,46.4,0.1,0.9,1.4
+"140","Separations per 10,000 population","Persons","With specialised psychiatric care","75-84 years",48.9,49,46.9,46.5,42.5,41.9,41.1,41.5,39.5,40.1,39.4,38.6,36.2,-6.4,-2.2,-2.6
+"141","Separations per 10,000 population","Persons","With specialised psychiatric care","85 years and over",39.7,40.8,38.1,38.3,33.3,34.1,33.5,31.8,31.8,30,27.6,26.3,24.7,-5.8,-6.1,-4.2
+"144","Separations per 10,000 population","Persons","Without specialised psychiatric care","0-4 years",28.6,27.1,25.5,24.8,24.4,25.5,24.1,24.3,24.3,23.1,23,21.4,25.5,19.1,1.2,NA
+"145","Separations per 10,000 population","Persons","Without specialised psychiatric care","5-11 years",2.5,2.6,3.2,2.8,3.3,3,2.4,2.7,3.3,3.5,3.4,3.2,3.4,5.7,0.9,0.7
+"146","Separations per 10,000 population","Persons","Without specialised psychiatric care","12-17 years",18.6,17.9,18.2,19.3,20.1,21.1,22.2,21.7,21.1,22.5,23.7,21.9,21.5,-1.6,0.6,1.7
+"147","Separations per 10,000 population","Persons","Without specialised psychiatric care","18-24 years",28.9,28.7,26.5,25.9,24.2,24.9,25.2,24.3,24.5,27,28.2,27.9,28.6,2.3,3.9,0.8
+"148","Separations per 10,000 population","Persons","Without specialised psychiatric care","25-34 years",44.4,43.9,41.4,39.4,35.5,35.6,33.9,32.2,31.7,34,34.1,31.8,34,7,1.8,-2
+"149","Separations per 10,000 population","Persons","Without specialised psychiatric care","35-44 years",42.2,42.4,41.8,42.8,39.8,38.8,38.2,37.3,36.8,40,40.5,38.1,39.3,3.2,1.6,-0.6
+"150","Separations per 10,000 population","Persons","Without specialised psychiatric care","45-54 years",32,33.4,32.1,32.3,30.6,30.6,31.5,30.9,30.9,33.6,35.8,36.1,35.9,-0.4,3.8,1.1
+"151","Separations per 10,000 population","Persons","Without specialised psychiatric care","55-64 years",26.5,26.3,24.5,26.4,24.5,24.1,24.7,24.5,25.4,27.2,28.4,28.8,29.8,3.7,4.1,2
+"152","Separations per 10,000 population","Persons","Without specialised psychiatric care","65-74 years",31.1,31.2,31,32.7,30.9,31.2,32,32.3,33.7,36.6,39.2,38.5,39.1,1.6,3.8,2.3
+"153","Separations per 10,000 population","Persons","Without specialised psychiatric care","75-84 years",82.5,80.9,81.5,81.6,85.2,87.1,91,93.9,96,107.9,115.3,118.6,118.9,0.2,5.5,3.8
+"154","Separations per 10,000 population","Persons","Without specialised psychiatric care","85 years and over",160.5,164.5,171.1,176.3,181.2,187.7,200.6,210.1,223.9,255.6,269,282.2,292.8,3.7,6.9,5.5
