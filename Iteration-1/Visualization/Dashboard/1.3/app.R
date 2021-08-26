@@ -9,14 +9,14 @@
 
 library(shiny)
 library(ggplot2)
-library(tm)
 library(wordcloud)
-library(memoise)
 library(plotly)
 library(tibble)
-library(tidyverse)
+# library(tidyverse)
 library(dplyr)
-library(reshape2)
+# library(reshape)
+library(data.table)
+
 
 filtered_data <- read.csv("common_diagnosis.csv")
 rate_admit <- read.csv("rate_admit.csv")
@@ -229,12 +229,11 @@ server <- function(input, output, session) {
     per <- v$res
     plot_ly(v)  %>% add_trace(x = ~Diag, y = ~res,type = 'bar')
     
-    
   })
   
   output$plot_rate <- renderPlotly({
     r <- rate()
-    
+    print(r)
     r <- spread(melt(r, id=c("Measure", "Sex", "Separation.type", "Age.group")), Sex, value)
     r$variable <- gsub("X","", as.character(r$variable))
     print(r)
@@ -293,8 +292,6 @@ server <- function(input, output, session) {
          The men and women tend to not be vocal about their mental health here, which inturn might also affect the official count of people
          who do not exist on record and this might lead to a huge number of people being undetected with mental illness.
          
-         
-         
          "
          
          
@@ -302,8 +299,23 @@ server <- function(input, output, session) {
   })
   
   output$plot_common_text <- renderUI({
-    HTML('Common mental diagnosis shows which are the top 10 common mental health issues that have been recorded in 
+    HTML('Before we jump in on the future, lets play a little around to answer the only question that mankind has ever asked - <i>"Why exactly
+    am I here?"</i>. If looking at this question, you wonder <i>"I \'m not here looking out for answers that the mankind
+    has failed to answer yet!"</i> - you are at the right place!  We are not here for that too. We are here, for you! <br><br>
+    
+    Common mental health diagnosis shows which are the top 10 common mental health issues that have been recorded in 
     hospitals in & around Australia <br><br>
+    
+    If, for some reason, you think to yourself <i>"I guess I am an outcast having this mental disorder, and I do not want my friends or family
+    or anyone to know that I am going through such a pain" </i> - think twice! Because many people go through various mental disorders 
+    but they get themselves treated right. And rightly so, that is how the norm should be. You are not alone in this. You do not have to go through this 
+    alone! We and the society, are all here for you! <br><br>
+    
+    <b><big> The 4 most common mental health problems in Australia </big></b><br>
+    1. Depression: 
+    
+    
+    
     <b><big>For more details on </big></b><br>
     &ensp; &ensp; &ensp;1. Schizophrenia, click <a href="https://www.healthdirect.gov.au/schizophrenia">here</a> <br>
     &ensp; &ensp; &ensp;2. Depression, click <a href="https://www.healthdirect.gov.au/depression">here</a> <br>
