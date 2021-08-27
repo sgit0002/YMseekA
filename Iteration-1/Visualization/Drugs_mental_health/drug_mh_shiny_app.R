@@ -5,7 +5,7 @@ library(shinycssloaders)
 library(wordcloud)
 library(memoise)
 library(plotly)
-
+library(shinyjs)
 
 
 #read the files
@@ -37,12 +37,15 @@ ui <- dashboardPage(
               box(
                 title = "How does alcohol affect mental health?", status = "warning", solidHeader = TRUE,
                 collapsible = TRUE,
-                withSpinner(plotlyOutput("alcohol_cons_bar_plot"))),
+                withSpinner(plotlyOutput("alcohol_cons_bar_plot"))
+                
+                ),
               box(
-                h4(strong("A lot of people don’t think alcohol is a drug – but it’s the most widely used and easily accessible drug in Australia.")),
+                status = "warning", solidHeader = TRUE, collapsible = TRUE,
+                h3(strong("A lot of people don’t think alcohol is a drug – but it’s the most widely used and easily accessible drug in Australia.")),
                 p("Alcohol is the most commonly used legal drug in Australia. It’s a depressant which means that it slows down the brain."),
                 p("The consumption of alcohol in Australia is increasing year by year as evident in the plot shown."),
-                h5(strong("What is the connection between alcohol and mental health?")),
+                h4(strong("What is the connection between alcohol and mental health?")),
                 p("Alcohol can have a major impact on mental health. Because alcohol is a depressant, it slows your body down and changes the chemical makeup in your brain."),
                 p("This has many effects. It can alter:"),
                 tags$ul(tags$li("mood"),tags$li("energy levels"), tags$li("sleeping patterns"), tags$li("concentration"), tags$li("and many other things")),
@@ -51,7 +54,8 @@ ui <- dashboardPage(
                   we would not normally make sober. Like:"),
                 tags$ul(tags$li("increases in risky behaviour"),tags$li("increases in aggression"), tags$li("self harm and suicide in people who may already be going
 through a tough time.")),
-                p(strong("What happens if I stop drinking?")),
+                
+                h4(strong("What happens if I stop drinking?")),
                 p("There are many benefits that can come from reducing or
 cutting out alcohol use. These may include:"),
                 tags$ul(tags$li("more energy"),tags$li("better sleep"), tags$li("saving money"), tags$li("better physical health"), tags$li("improved mood.")),
@@ -68,7 +72,6 @@ even seizures."),
                 p("Because of this, it’s a good idea to have a chat to a general
 practitioner (GP) to discuss the safest way of cutting down
 on your drinking.")
-                
               )
               
               ),
@@ -85,15 +88,65 @@ on your drinking.")
                   selectInput(
                     inputId = "pd_select_year",
                     label = "Select Year:",
-                    choices = colnames(benzo_presc[,3:10]),
+                    choices = sub('X', '', colnames(benzo_presc[,3:10])),
                     selected = "Opioids"
                   ),
-                  p("Information coming soon")
+                  box(width = 12, id = "benzo_box",
+                    h4(strong("What are Benzodiazepines?")),
+                    p("Benzodiazepines are medications that lower the activity of the nerves in the brain and cause you to be drowsy. 
+                    They can be used to treat problems such as general anxiety disorder, panic attacks, difficulty sleeping, alcohol withdrawal, and seizures."),
+                    h4(strong("How do they work?")),
+                    p("Benzodiazepines act on the brain and central nervous system by increasing the calming effect of the brain's naturally-occurring chemical messengers. The sedative and calming effects of benzodiazepines will relieve the symptoms of anxiety and promote sleep for most people, with few side-effects in the short term."),
+                    p(strong("Benzodiazepines treat the symptoms and not the cause of anxiety and insomnia. Once medication is stopped, symptoms may return if the underlying cause of the anxiety or insomnia has not been addressed.")),
+                    h4(strong("Side effects")),
+                    p(tags$ul(
+                      tags$li("When used in older people for long-term use this can increase the risk of memory problems, drowsiness, falls, and motor vehicle accidents."),
+                      tags$li("Severe side effects of this medication are trouble breathing, severe drowsiness, slowed heart rate, low blood pressure, and fainting."),
+                      tags$li("Benzodiazepines should be used with caution when taking other medications that cause drowsiness, such as opioid pain medications, as this can lead to overdose, hospitalization, and possibly death.")
+                    )),
+                    h4(strong("What are some examples of Benzodiazepines?")),
+                    p("The most popularly prescribed benzodiazepines in Australia are shown in the wordcloud, below are some of the examples"),
+                    p(tags$ul(
+                      tags$li("Valium (diazepam)"),
+                      tags$li("Restoril (temazepam)"),
+                      tags$li("Xanax (alprazolam)")
+                    ))
+                  )
                 ),
                 box(
                   status = "warning", solidHeader = TRUE,
                   collapsible = TRUE,
-                  withSpinner(plotOutput("popular_drug_wordcloud"))
+                  withSpinner(plotOutput("popular_drug_wordcloud")),
+                  
+                  box(width = 12, id = "opioid_box",
+                      h4(strong("What are Opioids?")),
+                      p("Opioids are a broad group of pain-relieving drugs that work by interacting with opioid receptors in your cells."),
+                      h4(strong("How do they work?")),
+                      p("When opioid medications travel through your blood and attach to opioid receptors in your brain cells, the cells release signals that muffle your perception of pain and boost your feelings of pleasure."),
+                      p("What makes opioid medications effective for treating pain can also make them dangerous. At lower doses, opioids may make you feel sleepy, but higher doses can slow your breathing and heart rate, which can lead to death. And the feelings of pleasure that result from taking an opioid can make you want to continue experiencing those feelings, which may lead to addiction."),
+                      h4(strong("Side effects")),
+                      p("Generally, people who use opioids may experience the following:"),
+                      p(tags$ul(
+                        tags$li("extreme relaxation"),
+                        tags$li("drowsiness and clumsiness"),
+                        tags$li("confusion, slurred speech,"),
+                        tags$li("slow breathing and heartbeat.")
+                      )),
+                      p("Long-term effects include:"),
+                      p(tags$ul(
+                        tags$li("increased tolerance"),
+                        tags$li("constipation"),
+                        tags$li("dependence"),
+                        tags$li("damage to vital organs such as the lungs, brain and heart."))
+                      ),
+                      h4(strong("What are some examples of Opioids?")),
+                      p("The most popularly prescribed opioids in Australia are shown in the wordcloud, below are some of the examples"),
+                      p(tags$ul(
+                        tags$li("Endone or OxyContin (oxycodone)"),
+                        tags$li("Panadeine, Panadeine Forte and Nurofen Plus (codeine)"),
+                        tags$li("Subutex or Suboxone (buprenorphine)")
+                      ))
+                  )
                 )
               ),
               fluidRow(
@@ -107,7 +160,27 @@ on your drinking.")
                     choices = unique(drug_avail$DrugType),
                     selected = "Base"
                   ),
-                  p("Information coming soon")
+                  
+                  box(
+                    width = 12,
+                    h5(strong("Many people who are addicted to drugs are also diagnosed with other mental disorders and vice versa. Compared with the general population, people addicted to drugs are roughly twice as likely to suffer from mood and anxiety disorders, with the reverse also true.")),
+                    h4(strong("How does use of illicit drugs affects mental health?")),
+                    p("There are three main types of drugs – depressants, stimulants and hallucinogens. They all cause your mind and body to react in different ways."),
+                    p(tags$ul(
+                      tags$li("Depressants slow your body down; your breathing and heart rate can slow down, you can experience nausea and vomiting, and your ability to think and react to what is happening around you can be affected. Alcohol, heroin, cannabis, sedatives and inhalants are all depressants."),
+                      tags$li("Cannabis can cause depression, acute panic attacks or ongoing anxiety and paranoia, even in people who have never previously shown signs of having a mental health condition."),
+                      tags$li("Stimulants speed your body up. They increase your heart rate, body temperature and blood pressure. People using stimulants can feel an increase in confidence, motivation and energy, and a decrease in the need for sleep.")
+                    )),
+                    h4(strong("How easily are these drugs available?")),
+                    p("As evident by the plot, each kind of drug as per opinions of the users it is becoming more and more easy to get access to these drugs and thus more and more people are using them."),
+                    h4(strong("Why quit?")),
+                    tags$ul(
+                      tags$li("Low self-esteem and drug addiction are often linked together and is considered a major reason that addict begins to use in the first place. Addicts and alcoholics abuse substances in an attempt to overcome negative thoughts and feelings—only to get stuck in the vicious cycle of addiction—and then experiencing lower and lower self-esteem."),
+                      tags$li("When you introduce large “addict-like” amounts of drugs and alcohol into your system over an extended period of time the effects on your physical appearance can be devastating. Prolonged substance abuse causes liver damage, vitamin deficiencies, lack of quality sleep, and a reduction of your body's ability to resist and combat infections."),
+                      tags$li("Numerous studies have shown a link between substance abuse and memory loss—particularly with long-term use. Many drugs, including alcohol, cause two immediate types of memory loss: brownouts, where you temporarily forget events that happened while drinking and using, and blackouts, where there is absolutely no recollection of anything that transpired."),
+                      tags$li("When you enter recovery and stops self-medicating you can begin to address any mental health issues with a professional that can, if needed, prescribe the proper medication. Therapy, counseling, and lifestyle coaching can all help as well. But the bottom line is that your depression and anxiety can be treated without the negative consequences of abusing substances.")
+                      ) 
+                  )
                 ),
                 box(
                   status = "warning", solidHeader = TRUE,
@@ -135,9 +208,9 @@ server <- function(input, output,session) {
     
     
     if(input$pd_select_drug_type == "Benzodiazepines"){
-      b <- benzo_presc[, c('Drug', input$pd_select_year)]
+      b <- benzo_presc[, c('Drug', paste('X',input$pd_select_year,sep=""))]
     }else{
-      b <- opioids_presc[, c('Drug', input$pd_select_year)]
+      b <- opioids_presc[, c('Drug', paste('X',input$pd_select_year,sep=""))]
     }
     b <- b[order(-b[,2]),]
     
@@ -146,6 +219,7 @@ server <- function(input, output,session) {
     b
   })
   
+  #data for drug type and particular year
   sixteen_drug_type_val <- reactive({
     categories = c('Very easy', 'Easy', 'Difficult', 'Very difficult')
     val = c(drug_avail$Very.easy[drug_avail$Year == '2016' & drug_avail$DrugType == input$da_select_drug_type],
@@ -154,7 +228,7 @@ server <- function(input, output,session) {
                drug_avail$Very.difficult[drug_avail$Year == '2016' & drug_avail$DrugType == input$da_select_drug_type])
     
     data_six = data.frame(categories, val)
-    print(data_six)
+    
     data_six
   })
   seventeen_drug_type_val <- reactive({
@@ -165,7 +239,7 @@ server <- function(input, output,session) {
             drug_avail$Very.difficult[drug_avail$Year == '2017' & drug_avail$DrugType == input$da_select_drug_type])
     
     data_six = data.frame(categories, val)
-    print(data_six)
+    
     data_six
   })
   eighteen_drug_type_val <- reactive({
@@ -176,7 +250,7 @@ server <- function(input, output,session) {
             drug_avail$Very.difficult[drug_avail$Year == '2018' & drug_avail$DrugType == input$da_select_drug_type])
     
     data_six = data.frame(categories, val)
-    print(data_six)
+    
     data_six
   })
   nineteen_drug_type_val <- reactive({
@@ -187,7 +261,7 @@ server <- function(input, output,session) {
             drug_avail$Very.difficult[drug_avail$Year == '2019' & drug_avail$DrugType == input$da_select_drug_type])
     
     data_six = data.frame(categories, val)
-    print(data_six)
+    
     data_six
   })
   
