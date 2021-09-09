@@ -1,0 +1,12 @@
+name: presc_drugs_deployment
+title: presc_drugs_deployment
+username:
+account: x4dkvp-udit-arora
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4615165
+bundleId: 5013163
+url: https://x4dkvp-udit-arora.shinyapps.io/presc_drugs_deployment/
+when: 1631128944.64891
+asMultiple: FALSE
+asStatic: FALSE

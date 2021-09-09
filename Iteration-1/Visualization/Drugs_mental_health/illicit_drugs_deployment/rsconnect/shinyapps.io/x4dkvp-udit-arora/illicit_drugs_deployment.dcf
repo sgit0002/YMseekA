@@ -1,0 +1,12 @@
+name: illicit_drugs_deployment
+title: illicit_drugs_deployment
+username:
+account: x4dkvp-udit-arora
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4615209
+bundleId: 5013176
+url: https://x4dkvp-udit-arora.shinyapps.io/illicit_drugs_deployment/
+when: 1631129262.40462
+asMultiple: FALSE
+asStatic: FALSE
