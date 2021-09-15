@@ -37,34 +37,23 @@
     </style>
 </head>	
 <body>
+
     <div id="login-form-container">
-        <form action="/" method="GET">
-            <div class="card" style="width: 400px">
+        <div class="card" style="width: 400px">
             <div class="card-content">
                 <div class="media">
-                <div class="is-size-4 has-text-centered">Mental Health Predictor</div>
+                    <div class="is-size-4 has-text-centered">
+                        {{ prediction }} 
+                    </div>
                 </div>
-                <div class="content">
-
-                <div class="field">
-                    <p class="control">
-                    Hi! Tell me how are you feeling today... <input id="feelings" name="feelings" placeholder="Write something.."></input>
-                    </p>
-                </div>
-
-            
-                
-                <div class="field">
-                    <button class="button is-fullwidth is-rounded is-success" >Submit</button>
-                </div>
-                </div>
+                <form action="index">
+                    <div class="field">
+                        <button class="button is-fullwidth is-rounded is-success">Retry</button>
+                    </div>
+                </form>
             </div>
         </div>
-        </form>
-
-        <!-- {% if prediction %}
-            <p> Output: {{prediction}}</p>
-        {% endif %} -->
     </div>
+    
 </body>
 </html>
