@@ -8,10 +8,7 @@ import numpy as np
 max_words = 5000
 max_len = 200
 
-model = tf.keras.models.load_model('model')
 
-sentiment = ["Not Depressed", "Depressed"]
-tokenizer = Tokenizer(num_words=max_words)
 
 
 app = Flask(__name__, template_folder="templates")
@@ -23,7 +20,12 @@ def index():
 @app.route('/', methods=['GET'])
 def predict():
     feeling = request.args.get('feelings')
-    
+    feeling = str(str(feeling).split('+'))
+
+    model = tf.keras.models.load_model('model')
+
+    sentiment = ["Not Depressed", "Depressed"]
+    tokenizer = Tokenizer(num_words=max_words)
     sequence = tokenizer.texts_to_sequences([feeling])
     test = pad_sequences(sequence, maxlen=max_len)
     
