@@ -22,7 +22,7 @@ def predict():
     feeling = request.args.get('feelings')
     feeling = str(str(feeling).split('+'))
 
-    model = tf.keras.models.load_model('model')
+    model = tf.keras.models.load_model('model-bi')
 
     sentiment = ["Not Depressed", "Depressed"]
     tokenizer = Tokenizer(num_words=max_words)
