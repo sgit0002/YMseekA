@@ -42,5 +42,11 @@ def predict():
 
     return render_template('output.html', prediction = pred, perc = str(perc)+'%')
     
+
+
+
+
+
+    
 if __name__ == '__main__':
     app.run(port=3000, debug=True)
