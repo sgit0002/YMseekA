@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, render_template_string
 
-
 from keras.preprocessing.text import tokenizer_from_json
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np, json
