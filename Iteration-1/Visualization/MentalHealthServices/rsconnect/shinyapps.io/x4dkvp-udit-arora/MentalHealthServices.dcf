@@ -1,0 +1,13 @@
+name: MentalHealthServices
+title: MentalHealthServices
+username:
+account: x4dkvp-udit-arora
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4818167
+bundleId: 5113478
+url: https://x4dkvp-udit-arora.shinyapps.io/MentalHealthServices/
+when: 1633595310.7902
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .~Visualisations__2059.twbr|community_service_centers.xlsx|Community-mental-health-care-tables-2018-19 (1).xlsx|Community-mental-health-care-tables-2018-19.xlsx|data_exploration_wrangling.R|mental_health_sex_provider_type.csv|mental_services_outcome.xlsx|Mental-health-service-key-performance-indicators-tables.xlsx|reduce_service_providers_areas.xlsx|state_wise_treatment_days.xlsx|TABLE_MBS_3.csv|TABLE_MBS_3.xlsx|Untitled.R|Visualisations.twb

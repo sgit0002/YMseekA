@@ -1,0 +1,13 @@
+name: treatmentduration
+title: treatmentduration
+username:
+account: uaro0001
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4821010
+bundleId: 5114766
+url: https://uaro0001.shinyapps.io/treatmentduration/
+when: 1633620551.97907
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .~Visualisations__2059.twbr|~$state_wise_treatment_days.xlsx|app_statewise_service_providers.R|community_service_centers.xlsx|Community-mental-health-care-tables-2018-19 (1).xlsx|Community-mental-health-care-tables-2018-19.xlsx|data_exploration_wrangling.R|Medicare-subsidised-mental-health-specific-services-tables.xlsx|mental_health_sex_provider_type.csv|mental_health_sex_provider_type.xlsx|mental_services_outcome.xlsx|Mental-health-service-key-performance-indicators-tables.xlsx|reduce_service_providers_areas.xlsx|services_outcome.R|TABLE_MBS_3.csv|TABLE_MBS_3.xlsx|temp.R|Untitled.R|Visualisations.twb
