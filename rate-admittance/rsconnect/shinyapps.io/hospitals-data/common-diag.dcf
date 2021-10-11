@@ -1,0 +1,13 @@
+name: common-diag
+title: common-diag
+username:
+account: hospitals-data
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4842110
+bundleId: 5125613
+url: https://hospitals-data.shinyapps.io/common-diag/
+when: 1633932741.37245
+lastSyncTime: 1633932741.37245
+asMultiple: FALSE
+asStatic: FALSE

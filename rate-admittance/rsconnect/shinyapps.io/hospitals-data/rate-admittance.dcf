@@ -1,0 +1,13 @@
+name: rate-admittance
+title: rate-admittance
+username:
+account: hospitals-data
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4842650
+bundleId: 5126060
+url: https://hospitals-data.shinyapps.io/rate-admittance/
+when: 1633940596.4492
+lastSyncTime: 1633940596.4492
+asMultiple: FALSE
+asStatic: FALSE
